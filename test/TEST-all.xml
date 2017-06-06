@@ -1,0 +1,13 @@
+<testsuite name="Mocha Tests" tests="1" failures="1" errors="1" skipped="0" timestamp="Tue, 06 Jun 2017 05:14:17 GMT" time="1.08">
+<testcase classname="Test" name="SAMPLE unit test should return home page" time="0" message="Cannot read property 'status' of null"><failure classname="Test" name="SAMPLE unit test should return home page" time="0" message="Cannot read property 'status' of null"><![CDATA[TypeError: Cannot read property 'status' of null
+    at Test.&lt;anonymous&gt; (test\test.js:21:10)
+    at Test.assert (node_modules\supertest\lib\test.js:165:8)
+    at assert (node_modules\supertest\lib\test.js:131:12)
+    at node_modules\supertest\lib\test.js:128:5
+    at Test.Request.callback (node_modules\superagent\lib\node\index.js:688:3)
+    at ClientRequest.&lt;anonymous&gt; (node_modules\superagent\lib\node\index.js:615:10)
+    at Socket.socketErrorListener (_http_client.js:309:9)
+    at emitErrorNT (net.js:1277:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)]]></failure></testcase>
+</testsuite>
